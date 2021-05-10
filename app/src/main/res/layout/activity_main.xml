@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/custom_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="עיצוב של EditText" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                style="@style/custom_input_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="אינפוט עם גבולות מעוגלים"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                style="@style/custom_input_type_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="אינפוט עם צבע רקע סגול"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                style="@style/custom_input_type_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="אינפוט לא לחיץ"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/custom_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="עיצוב של Button" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/custom_button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="כפתור מעוגל" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/custom_button_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="כפתור עם רקע אדום + פונט שונה" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/custom_button_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="כפתור לא לחיץ" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/custom_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="עיצוב של CheckBox" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                style="@style/custom_checkbox_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="שינוי האייקון הרגיל" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                style="@style/custom_checkbox_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="סטייל 2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="על מנת לראות את כל העיצובים יש לגשת אל התיקיה res ואז להיכנס אל התיקיה values ואז לראות את הקבצים שקיימים שם"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

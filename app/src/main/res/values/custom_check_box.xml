@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="custom_checkbox_1">
+        <item name="android:checkedButton">
+            @color/black
+        </item>
+        <item name="android:button">
+            @drawable/ic_baseline_check_24
+        </item>
+        <item name="fontFamily">
+            casual
+        </item>
+        <item name="android:layout_margin">
+            10dp
+        </item>
+
+    </style>
+    <style name="custom_checkbox_2">
+        <item name="android:checkedButton">
+            @color/black
+        </item>
+        <item name="fontFamily">
+            casual
+        </item>
+        <item name="android:layout_margin">
+            10dp
+        </item>
+        <item name="android:buttonTint">#8E3F3F</item>
+        <item name="android:textColor">#CF0101</item>
+        <item name="android:textSize">
+            25sp
+        </item>
+    </style>
+
+
+</resources>
